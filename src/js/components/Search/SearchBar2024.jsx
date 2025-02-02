@@ -85,7 +85,6 @@ export default class SearchBar2024 extends Component {
     this.props.searchFunction(searchString);
   };
 
-
   clearQuery () {
     this.props.clearFunction();
     this.setState({ searchString: '' });
