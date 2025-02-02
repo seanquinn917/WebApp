@@ -44,6 +44,7 @@ export default class SearchGuidesToFollowBox extends Component {
         searchFunction={this.searchFunction}
         clearFunction={this.clearFunction}
         searchUpdateDelayTime={100}
+        parentComponentName="SearchGuidesToFollowBox"
       />
     );
   }

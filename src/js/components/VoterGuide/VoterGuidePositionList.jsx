@@ -475,6 +475,7 @@ class VoterGuidePositionList extends Component {
                 searchFunction={this.searchFunction}
                 clearFunction={this.clearFunction}
                 searchUpdateDelayTime={250}
+                parentComponentName="VoterGuidePosition"
               />
             </SearchBarWrapper>
           )}

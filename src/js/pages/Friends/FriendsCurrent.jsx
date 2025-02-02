@@ -106,6 +106,7 @@ export default class FriendsCurrent extends Component {
               searchFunction={this.searchFriends}
               clearFunction={this.clearSearch}
               searchUpdateDelayTime={250}
+              parentComponentName="FriendsCurrent"
             />
             <br />
             { (searchFilterOn && friendListForDisplay.length === 0) && (

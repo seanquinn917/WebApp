@@ -108,6 +108,7 @@ export default class FriendInvitationsSentByMe extends Component {
                 searchFunction={this.searchFriends}
                 clearFunction={this.clearSearch}
                 searchUpdateDelayTime={250}
+                parentComponentName="FriendInvitationsSentByMe"
               />
               <br />
               { this.state.searchFilterOn && friendInvitationsSentByMe.length === 0 ? (

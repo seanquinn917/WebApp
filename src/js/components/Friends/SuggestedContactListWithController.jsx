@@ -276,6 +276,7 @@ class SuggestedContactListWithController extends React.Component {
                   searchFunction={this.searchFriends}
                   clearFunction={this.clearSearch}
                   searchUpdateDelayTime={250}
+                  parentComponentName="SuggestedContactListWithController"
                 />
               </>
             )}

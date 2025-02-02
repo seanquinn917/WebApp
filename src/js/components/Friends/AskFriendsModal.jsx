@@ -234,6 +234,7 @@ class AskFriendsModal extends Component {
                   searchFunction={this.searchFriends}
                   clearFunction={this.clearSearch}
                   searchUpdateDelayTime={250}
+                  parentComponentName="AskFriendsModal"
                 />
                 <br />
               </>

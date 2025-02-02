@@ -56,6 +56,7 @@ const ChallengeLeaderboard = ({ classes, challengeWeVoteId, clearSearchFunction,
               searchFunction={searchFunction}
               clearFunction={clearSearchFunction}
               searchUpdateDelayTime={500}
+              parentComponentName="ChallengeLeaderBoard"
             />
           </SearchBarWrapper>f
         </ButtonAndSearchWrapper>

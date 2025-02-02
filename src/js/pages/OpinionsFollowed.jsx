@@ -97,6 +97,7 @@ export default class OpinionsFollowed extends Component {
               searchFunction={this.searchFunction}
               clearFunction={this.clearFunction}
               searchUpdateDelayTime={250}
+              parentComponentName="OpinionsFollowed"
             />
             <br />
             <div className="voter-guide-list card">

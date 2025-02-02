@@ -288,6 +288,7 @@ class OneValue extends Component {
               searchFunction={this.searchFunction}
               clearFunction={this.clearFunction}
               searchUpdateDelayTime={250}
+              parentComponentName="OneValue"
             />
           </SearchBarWrapper>
           <Suspense fallback={<></>}>

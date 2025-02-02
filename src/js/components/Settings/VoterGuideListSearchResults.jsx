@@ -172,6 +172,7 @@ class VoterGuideListSearchResults extends Component {
               searchButton
               searchFunction={this.searchFunction}
               searchUpdateDelayTime={500}
+              parentComponentName="VoterGuideListSearchResults"
             />
 
           </div>

@@ -208,6 +208,7 @@ class VoterGuideFollowers extends Component {
                     searchButton
                     searchFunction={this.searchFollowers}
                     searchUpdateDelayTime={200}
+                    parentComponentName="VoterGuideFollowers"
                   />
                 </SearchInputWrapper>
               )}

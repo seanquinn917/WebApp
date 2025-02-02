@@ -119,6 +119,7 @@ const ChallengeParticipantListRoot = ({ challengeWeVoteId, classes, uniqueExtern
                 placeholder="Search by rank or name"
                 searchFunction={searchFunction}
                 clearFunction={clearSearchFunction}
+                parentComponentName="ChallengeParticipantListRoot"
                 searchUpdateDelayTime={500}
               />
             </SearchBarWrapper>

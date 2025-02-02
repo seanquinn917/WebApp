@@ -173,6 +173,7 @@ export default class ValuesList extends Component {
                   searchFunction={this.searchFunction}
                   clearFunction={this.clearFunction}
                   searchUpdateDelayTime={250}
+                  parentComponentName="ValuesList"
                 />
                 <br />
                 <>

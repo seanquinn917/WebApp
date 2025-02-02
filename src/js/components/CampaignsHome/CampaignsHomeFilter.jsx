@@ -46,6 +46,7 @@ function CampaignsHomeFilter (props) {
           searchFunction={props.searchFunction}
           clearFunction={props.clearSearchFunction}
           searchUpdateDelayTime={500}
+          parentComponentName="CampaignsHomeFilter"
         />
       </SearchBarWrapper>
     </CampaignsHomeFilterWrapper>
