@@ -10,8 +10,6 @@ import VoterStore from '../../stores/VoterStore';
 /* eslint-disable jsx-a11y/control-has-associated-label  */
 export default class SearchBar2024 extends Component {
 
-
-
   constructor (props) {
     super(props);
 
